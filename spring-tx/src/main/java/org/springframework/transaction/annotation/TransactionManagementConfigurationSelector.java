@@ -23,6 +23,7 @@ import org.springframework.transaction.config.TransactionManagementConfigUtils;
 import org.springframework.util.ClassUtils;
 
 /**
+ *
  * Selects which implementation of {@link AbstractTransactionManagementConfiguration}
  * should be used based on the value of {@link EnableTransactionManagement#mode} on the
  * importing {@code @Configuration} class.
